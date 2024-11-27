@@ -1,1 +1,102 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilização Global */
+
+body {
+  @apply bg-neutral-50 text-neutral-900 font-sans antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @apply font-semibold text-neutral-800 leading-tight;
+}
+
+h1 {
+  @apply text-4xl text-primary;
+}
+
+h2 {
+  @apply text-3xl text-primary;
+}
+
+h3 {
+  @apply text-2xl text-mountain-meadow-400;
+}
+
+h4 {
+  @apply text-xl text-mountain-meadow-400;
+}
+
+p {
+  @apply text-base text-neutral-700 leading-relaxed;
+}
+
+a {
+  @apply text-primary hover:text-blue-800 font-medium transition-all duration-200;
+}
+
+ul {
+  @apply list-none pl-5 text-neutral-700;
+}
+
+ol {
+  @apply list-decimal pl-5 text-neutral-700;
+}
+
+li {
+  @apply text-neutral-700 mb-1;
+}
+
+code {
+  @apply bg-neutral-100 text-neutral-800 rounded px-2 py-1 font-mono text-sm;
+}
+
+pre {
+  @apply bg-neutral-900 text-neutral-100 rounded-lg p-4 overflow-auto shadow-md;
+}
+
+table {
+  @apply w-full border-collapse bg-neutral-50 text-left rounded-lg shadow-md;
+}
+
+thead th {
+  @apply bg-neutral-100 font-medium text-neutral-700 px-4 py-2 border-b border-neutral-300;
+}
+
+tbody tr {
+  @apply even:bg-neutral-100 odd:bg-neutral-50 hover:bg-neutral-200 transition-all;
+}
+
+tbody td {
+  @apply px-4 py-2 border-b border-neutral-300 text-neutral-700;
+}
+
+img {
+  @apply rounded-lg shadow-md max-w-full h-auto;
+}
+
+blockquote {
+  @apply bg-neutral-100 border-l-4 border-blue-500 text-neutral-700 italic rounded-lg px-4 py-4;
+}
+
+input,
+select,
+textarea {
+  @apply w-full rounded-xl border border-neutral-300 bg-neutral-50 px-4 py-2 text-neutral-800 shadow-sm focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200 transition-all;
+}
+
+button {
+  @apply font-medium rounded-xl px-6 py-2 border-none m-2;
+}
+
+hr {
+  @apply border-neutral-300 my-6;
+}
+
+a {
+  text-decoration: none;
+}

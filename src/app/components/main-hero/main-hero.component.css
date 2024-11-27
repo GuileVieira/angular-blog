@@ -1,0 +1,19 @@
+.hero-bg {
+  background-image: url("/assets/hero-img.jpg");
+  background-size: auto;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 80vw;
+  height: 60vh;
+}
+
+@media screen and (max-width: 640px) {
+  .hero-bg {
+    background-image: url("/assets/hero-img.jpg");
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+  }
+}

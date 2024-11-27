@@ -1,0 +1,43 @@
+.hamburger-button {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  background: none;
+}
+
+.hamburger-button:after,
+.hamburger-button:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  top: 1;
+  left: 5;
+  background-color: #00bd8e;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.hamburger-button::before {
+  top: 0;
+}
+
+.hamburger-button::after {
+  top: 20px;
+}
+
+.hamburger-button span {
+  position: absolute;
+  top: 10px; /* Centraliza a barra no meio */
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #00bd8e;
+  border-radius: 2px;
+  transition: transform 0.3s ease;
+}
+
+.hamburger-button:focus {
+  outline: 1px solid #00bd8e;
+  outline-offset: 2px;
+}
