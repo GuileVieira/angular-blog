@@ -1,64 +1,45 @@
-# Stack
+# Angular Blog
 
-Tailwind css
-Taiga ui
+This project is an example blog application inspired by well-known bank blogs, built using Angular 19 and Tailwind CSS. It was developed as part of the Angular training course offered by Digital Innovation One (DIO).
 
-# AngularBlog
+## Features
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.1.
+- Developed with **Angular 19** for a robust structure and ease of development.
+- Styled using **Tailwind CSS** for modern and responsive layouts.
+- Responsive design: works flawlessly on desktop and mobile devices.
 
-## Development server
+## Screenshots
 
-To start a local development server, run:
+### Desktop View
 
-```bash
-ng serve
+![Desktop Design](./data/angular-blog-desktop.png)
+
+### Mobile View
+
+![Mobile Design](./data/angular-blog-mobile.png)
+
+---
+
+### Portuguese Version: `README.md`
+
+```markdown
+# Angular Blog
+
+Este projeto é um exemplo de aplicação de blog inspirado nos blogs de bancos conhecidos, desenvolvido utilizando Angular 19 e Tailwind CSS. Foi criado como parte do curso de Angular oferecido pela Digital Innovation One (DIO).
+
+## Funcionalidades
+
+- Desenvolvido com **Angular 19** para uma estrutura robusta e facilidade de desenvolvimento.
+- Estilizado com **Tailwind CSS** para layouts modernos e responsivos.
+- Design responsivo: funciona perfeitamente em dispositivos desktop e móveis.
+
+## Screenshots
+
+### Visualização para Desktop
+
+![Design para Desktop](./data/angular-blog-desktop.png)
+
+### Visualização para Mobile
+
+![Design para Mobile](./data/angular-blog-mobile.png)
 ```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
