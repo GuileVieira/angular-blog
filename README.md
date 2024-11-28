@@ -22,7 +22,6 @@ This project is an example blog application inspired by well-known bank blogs, b
 
 ### Portuguese Version: `README.md`
 
-```markdown
 # Angular Blog
 
 Este projeto é um exemplo de aplicação de blog inspirado nos blogs de bancos conhecidos, desenvolvido utilizando Angular 19 e Tailwind CSS. Foi criado como parte do curso de Angular oferecido pela Digital Innovation One (DIO).
@@ -42,4 +41,3 @@ Este projeto é um exemplo de aplicação de blog inspirado nos blogs de bancos 
 ### Visualização para Mobile
 
 ![Design para Mobile](./data/angular-blog-mobile.png)
-```
